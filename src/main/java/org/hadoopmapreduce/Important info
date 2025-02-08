@@ -1,0 +1,15 @@
+hadoop fs -mkdir /input1
+hadoop fs -put unique_terms.txt /input1
+hadoop jar target/WordCount-1.0-SNAPSHOT.jar org.hadoopmapreduce.WC_Runner /input2/Quyen_Tran_CS.txt /outputQuyen
+
+https://hadoop.apache.org/docs/r1.2.1/mapred_tutorial.html
+
+https://www.youtube.com/watch?v=qgBu8Go1SyM
+
+https://medium.com/@MinatoNamikaze02/installing-hadoop-on-macos-m1-m2-2023-d963abeab38e
+
+https://hadoop.apache.org/docs/r3.3.1/api/org/apache/hadoop/mapred/JobConf.html
+
+https://medium.com/@ashwin_kumar_/introduction-to-mapreduce-in-hadoop-f8d72a345619
+
+https://textfilesplitter.com/
